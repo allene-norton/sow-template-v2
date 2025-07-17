@@ -10,6 +10,7 @@ import html from "remark-html"
 const defaultData: ProjectData = {
   title: "Copilot Automation Implementation Proposal",
   subtitle: "Complete Workflow Automation & Workspace Setup",
+  company: "CompanyName",
   overview:
     "This proposal outlines the complete setup and automation of your Copilot workspace, including client onboarding, document management, billing, and contract workflows. The implementation includes 1 core automation and 1 workspace configuration to streamline your business processes.\n\n**Key Features:**\n*   Automated client creation\n*   Streamlined document signing\n*   Integrated billing workflows",
   totalCost: 0, // Will be calculated

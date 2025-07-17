@@ -50,6 +50,7 @@ export interface ProjectData {
   title: string
   subtitle: string
   overview: string
+  company: string
   totalCost: number
   depositPercentage: number
   depositAmount: number
