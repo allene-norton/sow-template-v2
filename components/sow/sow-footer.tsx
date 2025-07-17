@@ -1,7 +1,13 @@
 export function SOWFooter() {
   return (
     <div className="border-t-2 border-gray-200 pt-6 text-center text-gray-600 text-sm">
-      <p className="mb-2">This document is an estimate and not legally binding.</p>
+      <p className="mb-2">
+        This document, created on {new Date().toLocaleDateString('en-US', {
+          year: 'numeric',
+          month: 'long',
+          day: 'numeric'
+        })} is an estimate and not legally binding.
+      </p>
       <p className="mb-2 text-xs">
         This proposal represents the estimated hours and costs for the minimum viable product (MVP) implementation agreed upon for the project phase. 
       </p>
