@@ -50,7 +50,7 @@ export function BasicInfoEditor({
           <Input
             id="subtitle"
             value={data.company}
-            onChange={(e) => setData((prev) => ({ ...prev, subtitle: e.target.value }))}
+            onChange={(e) => setData((prev) => ({ ...prev, company: e.target.value }))}
           />
         </div>
 
