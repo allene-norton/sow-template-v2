@@ -32,7 +32,7 @@ export function PreviewInterface({
 }: PreviewInterfaceProps) {
   return (
     <div className="max-w-4xl mx-auto p-6 bg-white">
-      <SOWHeader title={data.title} subtitle={data.subtitle} />
+      <SOWHeader title={data.title} subtitle={data.subtitle} company={data.company} />
       <ProjectOverview overview={data.overview} />
       <RequirementsSectionPreview data={data} totalSoftwareCost={totalSoftwareCost} />
       <WorkspaceSetupSectionPreview setups={data.setups} />
