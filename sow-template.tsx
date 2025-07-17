@@ -16,8 +16,8 @@ const defaultData: ProjectData = {
   depositPercentage: 50,
   depositAmount: 0, // Will be calculated
   totalHours: 0, // Will be calculated
-  prepRate: 80,
-  automationRate: 100,
+  prepRate: 100,
+  automationRate: 125,
   prepDiscount: 0,
   automationDiscount: 0,
   prepHours: 0, // Will be calculated from setups
@@ -27,9 +27,9 @@ const defaultData: ProjectData = {
   softwareRequirements: [
     {
       id: "1",
-      name: "Copilot Pro",
+      name: "Copilot",
       planType: "Professional",
-      estimatedCost: 99,
+      estimatedCost: 189,
       purchased: false,
     },
   ],
@@ -38,7 +38,7 @@ const defaultData: ProjectData = {
       id: "1",
       name: "Copilot Admin Access",
       description:
-        "Full administrative access to configure automations, forms, and client management.\n\n**Required for:**\n*   API Key generation\n*   Webhook setup",
+        "Full administrative access to configure automations, forms, and client management.",
       hasAccess: false,
     },
   ],
