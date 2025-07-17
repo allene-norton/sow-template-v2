@@ -259,6 +259,7 @@ export default function SOWTemplate() {
     <div class="header">
         <h1>${data.title}</h1>
         <p>${data.subtitle}</p>
+        <p>Company: ${data.company}</p>
     </div>
     
     <div class="summary-box">

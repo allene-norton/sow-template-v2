@@ -45,6 +45,15 @@ export function BasicInfoEditor({
           />
         </div>
 
+        <div>
+          <Label htmlFor="company">Company</Label>
+          <Input
+            id="subtitle"
+            value={data.company}
+            onChange={(e) => setData((prev) => ({ ...prev, subtitle: e.target.value }))}
+          />
+        </div>
+
         <MarkdownEditor
           id="overview"
           label="Project Overview"
