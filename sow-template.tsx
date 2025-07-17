@@ -444,6 +444,7 @@ export default function SOWTemplate() {
     <div class="footer">
         <p>This document, created on ${currentDate} is an estimate and not legally binding. </p>
         <p>This proposal represents the minimum viable product (MVP) implementation. Additional complexity or requirements may increase final project cost based on actual hours required.</p>
+        <p>Final invoice will reflect actual billable hours.</p>
         <p>View our full terms and conditions <a style=\"text-decoration: underline;\" href=\"https://nortonapplications.com/terms\">here</a>.</p>
     </div>
 </body>
