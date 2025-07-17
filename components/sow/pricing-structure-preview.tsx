@@ -15,7 +15,7 @@ export function PricingStructurePreview({
   return (
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-xl font-semibold text-green-800 mb-4 border-b-2 border-gray-200 pb-2">Pricing Structure</h2>
+        <h2 className="text-xl font-semibold text-green-800 mb-4 border-b-2 border-gray-200 pb-2">Pricing Structure Estimate</h2>
         <div className="overflow-x-auto">
           <table className="w-full border-collapse">
             <thead>
