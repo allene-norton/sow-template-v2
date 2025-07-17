@@ -4,6 +4,8 @@ export function SOWFooter() {
       <p className="mb-2">This document is an estimate and not legally binding.</p>
       <p className="mb-2">
         This proposal represents the estimated hours and costs for the minimum viable product (MVP) implementation agreed upon for the project phase. 
+      </p>
+      <p className="mb-2">
         Additional complexity or requirements may increase final project cost based on actual hours required. Final invoice will reflect actual billable hours.
       </p>
       <p className="mb-2">
