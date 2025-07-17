@@ -436,8 +436,13 @@ export default function SOWTemplate() {
     </div>
     
     <div class="footer">
+        <p>This document, created on ${new Date().toLocaleDateString('en-US', {
+          year: 'numeric',
+          month: 'long',
+          day: 'numeric'
+        })} is an estimate and not legally binding.</p>
         <p>This proposal represents the minimum viable product (MVP) implementation. Additional complexity or requirements may increase final project cost based on actual hours required.</p>
-        <p><strong>Ready to streamline your workflow?</strong> Contact us to get started with your automation implementation.</p>
+        <p>View our full terms and conditions <a style="text-decoration: underline;" href="https://nortonapplications.com/terms">here</a>.</p>
     </div>
 </body>
 </html>`
