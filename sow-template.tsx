@@ -8,11 +8,11 @@ import { remark } from "remark"
 import html from "remark-html"
 
 const defaultData: ProjectData = {
-  title: "Copilot Automation Implementation Proposal",
+  title: "Assembly Automation Implementation Proposal",
   subtitle: "Complete Workflow Automation & Workspace Setup",
   company: "CompanyName",
   overview:
-    "This proposal outlines the complete setup and automation of your Copilot workspace, including client onboarding, document management, billing, and contract workflows. The implementation includes 1 core automation and 1 workspace configuration to streamline your business processes.\n\n**Key Features:**\n*   Automated client creation\n*   Streamlined document signing\n*   Integrated billing workflows",
+    "This proposal outlines the complete setup and automation of your Assembly workspace, including client onboarding, document management, billing, and contract workflows. The implementation includes 1 core automation and 1 workspace configuration to streamline your business processes.\n\n**Key Features:**\n*   Automated client creation\n*   Streamlined document signing\n*   Integrated billing workflows",
   totalCost: 0, // Will be calculated
   depositPercentage: 50,
   depositAmount: 0, // Will be calculated
@@ -28,7 +28,7 @@ const defaultData: ProjectData = {
   softwareRequirements: [
     {
       id: "1",
-      name: "Copilot",
+      name: "Assembly",
       planType: "Professional",
       estimatedCost: 189,
       purchased: false,
@@ -37,7 +37,7 @@ const defaultData: ProjectData = {
   credentialRequirements: [
     {
       id: "1",
-      name: "Copilot Admin Access",
+      name: "Assembly Admin Access",
       description:
         "Full administrative access to configure automations, forms, and client management.",
       hasAccess: false,
@@ -50,7 +50,7 @@ const defaultData: ProjectData = {
       hours: 0.5,
       description: "Setup client categorization system.",
       workflow:
-        "1. Review existing client types\n2. Create tag categories in Copilot\n3. Configure tag hierarchy\n4. Test tag assignment",
+        "1. Review existing client types\n2. Create tag categories in Assembly\n3. Configure tag hierarchy\n4. Test tag assignment",
       requirements: "Full list of required tags and tag types.",
     },
   ],
@@ -63,7 +63,7 @@ const defaultData: ProjectData = {
       cleanupHours: 0.25,
       description: "Automatically create client when NDA is signed.",
       workflow:
-        "1. NDA Signed in SignNow\n2. Webhook triggers automation\n3. Extract client data from NDA\n4. Find Custom Field Option in Copilot\n5. Create Client in Copilot with appropriate tags",
+        "1. NDA Signed in SignNow\n2. Webhook triggers automation\n3. Extract client data from NDA\n4. Find Custom Field Option in Assembly\n5. Create Client in Assembly with appropriate tags",
       requirements: "Which field in the NDA designates the tag type for client creation?",
       suggestions: "Designate a field in the NDA that maps to existing client tags.",
     },
